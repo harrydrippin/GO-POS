@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1f1f1f"
+    android:padding="40px">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01"
+        android:id="@+id/tablelist_item_tablenum"
+        android:textColor="#ffc000"
+        android:textSize="60dp"/>
+    <View
+        android:layout_width="62dp"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="-7dp"
+        android:layout_below="@id/tablelist_item_tablenum"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="콩나물제육볶음\n스팸후라이\n콘치즈"
+        android:textColor="#ffc000"
+        android:id="@+id/tablelist_item_menu"
+        android:textSize="25dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/tablelist_item_tablenum"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tablelist_item_menu"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#bababa"
+        android:id="@+id/tablelist_item_price"
+        android:textSize="20sp"
+        android:text="합계 26,000원"/>
+</RelativeLayout>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <EditText
+        android:hint="테이블 번호"
+        android:textColorHint="#756c50"
+        android:textSize="60sp"
+        android:id="@+id/order_tablenum"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorAccent"
+        android:background="#00000000" />
+    <View
+        android:layout_width="45dp"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/order_div"
+        android:layout_below="@id/order_tablenum"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TABLE"
+        android:layout_below="@id/order_div"
+        android:id="@+id/text_table"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:text="콩나물 제육볶음"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="#c7c3b7" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+                <EditText
+                    android:hint="0" android:textColor="@color/colorAccent"
+                    android:textSize="25sp"
+                    android:background="#00000000"
+                    android:id="@+id/order_food_kong"
+                    android:textColorHint="#756c50" android:inputType="number"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:text="개"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#646464" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="#131313" />
+        <View
+            android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="#444444" />
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:text="삼겹살 꼬치 3개"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#c7c3b7" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <EditText
+                android:hint="0" android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:background="#00000000"
+                android:id="@+id/order_food_sam"
+                android:textColorHint="#756c50" android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:text="개"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#646464" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#131313" />
+    <View
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="#444444" />
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:text="스팸후라이"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#c7c3b7" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <EditText
+                android:hint="0" android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:background="#00000000"
+                android:id="@+id/order_food_spam"
+                android:textColorHint="#756c50" android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:text="개"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#646464" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#131313" />
+    <View
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="#444444" />
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:text="콘치즈"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#c7c3b7" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <EditText
+                android:hint="0" android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:background="#00000000"
+                android:id="@+id/order_food_corn"
+                android:textColorHint="#756c50" android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:text="개"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#646464" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#131313" />
+    <View
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="#444444" />
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:text="소세지야채볶음"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#c7c3b7" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <EditText
+                android:hint="0" android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:background="#00000000"
+                android:id="@+id/order_food_so"
+                android:textColorHint="#756c50" android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:text="개"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#646464" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#131313" />
+    <View
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="#444444" />
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:text="해물부추전"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#c7c3b7" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <EditText
+                android:hint="0" android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:background="#00000000"
+                android:id="@+id/order_food_hae"
+                android:textColorHint="#756c50" android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:text="개"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#646464" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#131313" />
+    <View
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="#444444" />
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:text="소주"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#c7c3b7" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <EditText
+                android:hint="0" android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:background="#00000000"
+                android:id="@+id/order_food_soju"
+                android:textColorHint="#756c50" android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:text="개"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#646464" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#131313" />
+    <View
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="#444444" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="주문 사항을 선택하세요"
+        android:textSize="25sp"
+        android:background="@color/colorAccent"
+        android:id="@+id/order_submit" />
+
+    </LinearLayout>
+</ScrollView>
