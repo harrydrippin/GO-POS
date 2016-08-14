@@ -12,3 +12,11 @@ GO-POS
 또한, Server에서는 주문이 쌓여서 통계를 제공하고, 그로 인한 빠른 수익의 파악과 다음 날 준비를 위한 데이터를 쉽게 모아볼 수 있습니다.
 
 _현재 이 프로젝트는 PHP Server가 닫혀 정상 동작하지 않습니다._
+
+팀원
+------
+홍승환([harrydrippin @ Github](http://github.com/harrydrippin))
+조준형([choms46 @ Github](http://github.com/choms46))
+황수진
+송영은
+이주윤
