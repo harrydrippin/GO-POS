@@ -19,8 +19,8 @@ _현재 이 프로젝트는 PHP Server가 닫혀 정상 동작하지 않습니�
 
 조준형([choms46 @ Github](http://github.com/choms46))
 
-황수진
+황수진([HSOOJ @ Github](http://github.com/HSOOJ))
 
 송영은
 
-이주윤
+이주윤([Leejooyoon @ Github](http://github.com/Leejooyoon))
